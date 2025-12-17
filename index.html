@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>celular</title>
+</head>
+<body>
+    <title>Formulário sobre o Uso do Celular</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6d9f2; /* roxo pastel */
+        }
+
+        .container {
+            width: 500px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #9b6bb3;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 10px;
+            width: 100%;
+            background-color: #c79adf;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #b488cc;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 40px;
+            color: #9b6bb3;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 15px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f0e6f7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Uso do Celular</h1>
+
+        <form>
+            <label>qual é a marca do seu celular?</label>
+            <input type="text" name="marca">
+
+            <label>para qual finalidade você mais usa o celular?</label>
+            <input type="text" name="uso" placeholder="Ex: estudar, conversar, redes sociais">
+
+            <label>quantas horas por dia você usa o celular?</label>
+            <input type="number" name="horas">
+
+            <label>quais aplicativos você mais utiliza?</label>
+            <input type="text" name="aplicativo">
+
+            <label>você considera o celular importante para sua rotina?</label>
+            <select name="importancia">
+                <option>sim</option>
+                <option>não</option>
+                <option>às vezes</option>
+            </select>
+
+            
+            
+
+            <button class="btn" type="submit">Confirmar</button>
+        </form>
+
+        <h2>Alterações</h2>
+
+        <label>Descreva a alteração:</label>
+        <input type="text" placeholder="Ex: tempo de uso alterado para 5 horas">
+
+        <button class="btn">Confirmar Alteração</button>
+
+        <table>
+            <tr>
+                <th>Celular</th>
+                <th>Alteração</th>
+                <th>Ações</th>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </table>
+
+    </div>
+
+        
+</body>
+</html>
